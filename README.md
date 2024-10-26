@@ -1,6 +1,6 @@
 # ChipuRobo Robot - Open Robotics Platform
 
-Welcome to the **ChipuRobo Robot Project**, a comprehensive robotics educational kit designed to teach STEAM concepts such as robotics, AI, 3D printing, and sustainability. This kit is part of ChipuRobo's vision to empower young African innovators with skills that are future-ready.
+Welcome to the **ChipuRobo Robot Project**, a comprehensive robotics educational kit designed to teach STEAM concepts such as robotics, AI, 3D printing, and sustainability. This kit is part of ChipuRobo's vision to empower young African innovators with future-ready skills.
 
 ---
 
