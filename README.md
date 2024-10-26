@@ -1,7 +1,6 @@
 # ChipuRobo Robot - Open Robotics Platform
 
-
-Welcome to the **ChipuRobo Robot Project**, a comprehensive robotics educational kit designed to teach STEAM concepts such as robotics, AI, 3D printing, and sustainability using the Open Robotics Platform. This kit is a part of ChipuRobo's vision to empower young African innovators with future-ready skills. 
+Welcome to the **ChipuRobo Robot Project**, a comprehensive robotics educational kit designed to teach STEAM concepts such as robotics, AI, 3D printing, and sustainability. This kit is part of ChipuRobo's vision to empower young African innovators with skills that are future-ready.
 
 ---
 
@@ -22,19 +21,19 @@ Welcome to the **ChipuRobo Robot Project**, a comprehensive robotics educational
 
 ## Overview
 
-The **ChipuRobo Robot** is an open-source robotics platform designed for learning and experimentation in robotics and STEAM (Science, Technology, Engineering, Arts, and Mathematics) education. The robot is fully customizable and expandable, making it a great tool for students, hobbyists, and educators. It incorporates advanced components such as LIDAR, motor drivers, a Raspberry Pi controller, and much more.
+The **ChipuRobo Robot** is an open-source robotics platform designed for learning and experimentation in robotics and STEAM (Science, Technology, Engineering, Arts, and Mathematics) education. The robot is fully customizable and expandable, making it a valuable tool for students, hobbyists, and educators. The platform integrates **Arduino** with a variety of components, including a motor driver, an ultrasonic sensor, and more.
 
-The robot platform also supports **AI-based** applications, thanks to its powerful integration with Raspberry Pi, ROS (Robot Operating System), and other modules. It’s built with sustainability in mind, utilizing **3D-printed components** from recycled materials, especially PET plastics.
+Built with sustainability in mind, the robot includes **laser-cut and 3D-printed components**, some of which are made from recycled PET plastics. This allows students to engage in hands-on robotics projects while learning about sustainable materials and practices.
 
 ---
 
 ## Key Features
 
-- **Modular Design:** Build and expand your robot with different modules including sensors, motor drivers, and AI processors.
-- **AI & Robotics Learning:** Supports machine learning, vision processing, and AI-based algorithms.
-- **3D Printing Integration:** The robot's chassis and other components can be 3D-printed, promoting the use of recycled materials in education.
-- **Open-Source Software:** Fully supported by ROS (Robot Operating System) for a wide range of robotics applications.
-- **PET Recycling Initiative:** Promotes sustainability by using parts made from recycled PET plastic.
+- **Modular Design:** Build and expand your robot with modules including sensors and motor drivers.
+- **Arduino-Based Learning:** Provides an introduction to robotics and electronics using Arduino.
+- **3D Printing & Laser Cutting Integration:** Includes laser-cut and 3D-printed parts, promoting the use of recycled materials.
+- **Open-Source Software:** Compatible with Arduino IDE for a variety of programming applications.
+- **Sustainability Focus:** Utilizes parts made from recycled PET plastic, fostering environmental awareness.
 
 ---
 
@@ -42,25 +41,21 @@ The robot platform also supports **AI-based** applications, thanks to its powerf
 
 The ChipuRobo Robot includes the following hardware:
 
-1. **Raspberry Pi 4B** - The main processor running ROS and AI applications.
-2. **Motor Shield** - Used to control the movement of the robot’s motors.
-3. **ISD1820 Sound Module** - A voice recording module that adds interactivity.
-4. **RPLIDAR A1M8** - A 2D LIDAR sensor for obstacle detection and SLAM.
-5. **Distance Sensor Module** - For detecting nearby objects and enhancing safety.
-6. **Line Following Module** - To enable the robot to follow lines.
-7. **USB Microphone and Speaker** - For interactive voice commands and responses.
-8. **3D-Printed Chassis** - Printed from recycled PET plastic using the Open Robotics Platform.
-9. **Power Supply** - Powered by 9V batteries or through USB-C.
+1. **Arduino Uno R3** - The main microcontroller for running the robot’s programs.
+2. **Fundomoto Motor Driver** - Used to control the robot’s motors.
+3. **Ultrasonic Sensor** - For obstacle detection, enabling safe navigation.
+4. **9V Battery** - Powers the Arduino and other electronic components.
+5. **Laser-Cut Platform** - Provides a sturdy, flat surface for mounting components.
+6. **3D-Printed Pillars** - Support the platform structure, with some parts made from recycled PET plastic.
+7. **Wheels and Motors** - Allow for smooth movement and control.
 
 ---
 
 ## Software Components
 
-- **ROS (Robot Operating System)** - The primary framework for robotics software development.
-- **Python 3** - Used for writing control algorithms and AI code.
-- **OpenCV** - Computer vision library for image processing tasks.
-- **ChatGPT API** - Integrated for voice-based AI interaction with the robot.
-- **RPLIDAR ROS Package** - ROS package to handle LIDAR operations for navigation and mapping.
+- **Arduino IDE** - The primary development environment for programming the Arduino.
+- **Basic C++** - Language used to program control algorithms and sensor integration.
+- **Open-Source Libraries** - Libraries for handling sensor data and motor control.
 
 ---
 
@@ -68,18 +63,42 @@ The ChipuRobo Robot includes the following hardware:
 
 ### Setup
 
-To start with the ChipuRobo Robot, you need the following:
+To begin with the ChipuRobo Robot, you need the following:
 
-- A computer with internet access
-- Raspberry Pi 4B (with microSD card pre-installed with Raspbian OS)
-- ROS Noetic installed
-- Basic robotics tools such as a screwdriver and USB cables
+- A computer with the **Arduino IDE** installed
+- Arduino Uno R3 (included in the kit)
+- Basic tools such as a screwdriver
 
 ### Installation
 
-1. **Install ROS Noetic on Raspberry Pi:**
+1. **Set Up Arduino IDE:**
 
-   Follow the official ROS installation guide for Raspberry Pi:
-   ```bash
-   sudo apt update
-   sudo apt install ros-noetic-desktop-full
+   Download and install the Arduino IDE from the official Arduino website.
+
+2. **Connect Arduino Uno R3 to Your Computer:**
+
+   Use a USB cable to connect the Arduino to your computer.
+
+3. **Upload Sample Code:**
+
+   Open the Arduino IDE, choose the correct board (Arduino Uno), and upload sample code to test the sensor and motor functionality.
+
+---
+
+## Basic Usage
+
+1. **Obstacle Detection:** Use the ultrasonic sensor to detect objects and program the robot to stop or turn.
+2. **Motor Control:** Program the Fundomoto motor driver to control movement and speed.
+3. **Custom Projects:** Experiment with additional sensors and motors to enhance functionality.
+
+---
+
+## Contributing
+
+We welcome contributions from the community! Feel free to submit issues or suggestions to improve the ChipuRobo Robot and its educational resources.
+
+---
+
+## License
+
+The ChipuRobo Robot Project is open-source and available under the [MIT License](link-to-license).
